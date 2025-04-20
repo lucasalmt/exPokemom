@@ -15,7 +15,6 @@ $pokemons = json_decode(curl_exec($ch));
     <title>Pokemóns</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <!-- Bulma Version 0.7.2-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" />
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
@@ -23,12 +22,8 @@ $pokemons = json_decode(curl_exec($ch));
     <section class="hero is-info is-small">
       <div class="hero-body">
         <div class="container has-text-centered">
-          <p class="title">
-            Listagem de Pokémons
-          </p>
-          <p class="subtitle">
-            Consumo de API com PHP
-          </p>
+          <p class="title">Listagem de Pokémons</p>
+          <p class="subtitle"> Consumo de API com PHP </p>
         </div>
       </div>
     </section>
